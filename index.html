@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sim Festival</title>
+	<meta name="description" content="In your Face">
+	<meta name="author" content="Marek Ventur">
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+
+	<script src="main.js"></script>
+
+	<h1>Sim Festival</h1>
+	<h2>You have £<span id="money">100000</span>. Use it wisely.</h2>
+
+	<div class="main-game">
+		<h3>Plan your festival</h3>
+
+		<div class="left">
+			<input class="artist" value="" type="text" placeholder="Enter an artist you want to sign for your festival" />
+			<ul class="artists">
+
+			</ul>
+
+		</div>
+
+		<div class="right">
+			<label class="festival-name-label" for="festival-name">What's your festival called?</label>
+			<input type="text" id="festival-name" class="festival-name" value="" placeholder="Sim-Festival">
+
+			<ul class="signed-artists">
+
+			</ul>
+
+			<a href="#" class="start-festival">Start Festival!</div>
+
+ 		</div>
+	</div>
+
+	<div class="wait" style="display:none;">
+		Please wait...
+	</div>
+
+	<div class="result" style="display:none;">
+		<div><span class="people">15</span> people went to your festival.</div>
+		<div>You earned £<span class="earned-money"></span>.</div>
+		<div><a href="#" class="next-round">Next Round</a></div> 
+	</div>
+
+</body>
+</html>
