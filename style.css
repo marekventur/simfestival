@@ -89,6 +89,8 @@ html {
 
 }
 
+
+
 .artists li:hover {
 	background: #ccc;
 
@@ -101,4 +103,14 @@ li.unavailable {
 
 li.unavailable:hover {
 	background: transparent;
+}
+
+.wait {
+	display: block;
+	width: 700px;
+}
+
+.going {
+	font-size: 2em;
+	margin-bottom: 10px;
 }

@@ -31,20 +31,31 @@
 		</div>
 
 		<div class="right">
-			<label class="festival-name-label" for="festival-name">What's your festival called?</label>
-			<input type="text" id="festival-name" class="festival-name" value="" placeholder="Sim-Festival">
+			<div>
+				<label class="festival-name-label" for="festival-name">What's your festival called?</label>
+				<input type="text" id="festival-name" class="festival-name" value="" placeholder="Sim-Festival">
+			</div>
+
+			<div>
+				<label class="festival-price-label" for="festival-price">How much is a ticker (in £)?</label>
+				<input type="text" id="festival-price" class="festival-price" value="10" placeholder="10">
+			</div>
 
 			<ul class="signed-artists">
-
+				<li data-reach="7516"><div class="artist-name">Heretics</div><div class="listeners">7516 Listener</div><div class="cost">Cost: £7516</div></li>
+				<li data-reach="368006"><div class="artist-name">Menomena</div><div class="listeners">368006 Listener</div><div class="cost">Cost: £368006</div></li>
+				<li data-reach="72107"><div class="artist-name">Ramona Falls</div><div class="listeners">72107 Listener</div><div class="cost">Cost: £72107</div></li>
 			</ul>
 
-			<a href="#" class="start-festival">Start Festival!</div>
+			<a href="#" class="start-festival">Start Festival!</a>
 
  		</div>
 	</div>
 
 	<div class="wait" style="display:none;">
-		Please wait...
+		<div class="going"><span id="going-number"></span> are going, you earn £<span class="income">0</span>.</div>
+		<div class="fan-list"></div>
+
 	</div>
 
 	<div class="result" style="display:none;">
